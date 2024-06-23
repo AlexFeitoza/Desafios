@@ -138,6 +138,12 @@ header {
 
 }
 
+.btn.btn-primary {
+    border: none;
+    border-radius: 0;
+    background-color: #0067b8;
+}
+
 .bannner {
     padding: 0 5%;
     display: flex;
@@ -146,17 +152,13 @@ header {
     align-items: center;
 
     img {
-        width: 100%;
+        width: 80%;
         max-width: 1500px;
     }
 
     .card {
         position: absolute;
+        left: 13%;
+        border-radius: 0;
     }
-}
-
-.btn.btn-primary {
-    border: none;
-    border-radius: 0;
-    background-color: #0067b8;
 }
