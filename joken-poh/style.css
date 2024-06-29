@@ -25,6 +25,48 @@ body {
     align-items: center;
 }
 
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.7;   
+}
+
 .buttons {
-    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+#rock {
+    background-color: rgb(172, 21, 172);
+}
+
+#paper {
+    background-color: rgb(50, 189, 50);
+}
+
+#scissors {
+    background-color: rgb(38, 38, 180);
+    
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span {
+    color: blue;
+}
+
+.machine-score span {
+    color: red;
 }
