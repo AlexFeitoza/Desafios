@@ -12,18 +12,18 @@
         <h1>JokenPoh</h1>
             <div class="buttons">
     
-                <button id="rock" onclick="play('rock')">&#x1F44A;</button>
-                <button id="paper" onclick="play('paper')">&#x1F590;</button>
-                <button id="scissors" onclick="play('scissors')">&#x270C;</button>
+                <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+                <button id="paper" onclick="playHuman('paper')">&#x1F590;</button>
+                <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
             </div>
 
-            <p id="result"></p>
+            <p class="result"></p>
 
-            <p class="your-score">Sua Pontuaçao: <span>0</span></p>
-            <p class="machine-score">Pontuaçao da Alexa: <span>0</span></p>
+            <p class="your-score">Sua Pontuaçao: <span id="human-score">0</span></p>
+            <p class="machine-score">Pontuaçao da Alexa: <span id="machine-score">0</span></p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="jokenpo.js"></script>
 </body>
 
 </html>
