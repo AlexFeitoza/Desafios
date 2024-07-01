@@ -30,11 +30,11 @@ const playTheGame = (human, machine) => {
             (human === 'rock' && machine === 'scissors') ||
             (human === 'scissors' && machine === 'paper') 
      ) {
-        humanScore++
+        humanScoreNumber++
         humanScore.innerHTML = humanScoreNumber
         result.innerHTML = "Voce ganhou"
     } else {
-        machineScore++
+        machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
         result.innerHTML = "Alexa ganhou, voce perdeu."
     }
